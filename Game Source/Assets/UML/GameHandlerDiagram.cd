@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assets.Main.GameHandler">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Game" Type="Assets.Main.GameHandler">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.755" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAggCIEAABBAAANAAAEAQIAEABhEFAIAAASgAQBAAVU=</HashCode>
+      <FileName>Assets\Main\GameHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Game" />
+      <Property Name="Generation" />
+      <Property Name="Hero" />
+      <Property Name="Item" />
+      <Property Name="Player" />
+      <Property Name="Random" />
+      <Property Name="Spawn" />
+      <Property Name="Tile" />
+      <Property Name="World" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assets.Scripts.Misc.Handlers.GenerationHandler" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAgAQAAMAAAAAAAAAAACIEBBMAAAAAAAAAEACA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Handlers\GenerationHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Misc.Handlers.HeroHandler" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Handlers\HeroHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Misc.Handlers.ItemHandler" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAIBAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Handlers\ItemHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.GameObject" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Assets.Scripts.Misc.Handlers.RandomHandler" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACIAIAEAQAAAAAAAAABEAAAAAAAIAAEw=</HashCode>
+      <FileName>Assets\Scripts\Misc\Handlers\RandomHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Spawner.Spawner" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAQACwAIQ=</HashCode>
+      <FileName>Assets\Scripts\Spawner\Spawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Misc.Handlers.TileHandler" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAABACAAgAAAAAAAAAAAAAqKAAAAAAABAERA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Handlers\TileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Misc.Handlers.WorldHandler" Collapsed="true">
+    <Position X="1.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQAAAACACAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Misc\Handlers\WorldHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

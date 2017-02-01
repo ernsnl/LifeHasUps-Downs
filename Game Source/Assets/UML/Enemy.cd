@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assets.Scripts.Models.Enemies.Enemy_Obj.Ghost.Ghost" Collapsed="true">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAQiAAAAggAAAEIAkAAAAAAQAAAAAgAAEAABA=</HashCode>
+      <FileName>Assets\Scripts\Models\Enemies\Enemy_Obj\Ghost\Ghost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Models.Enemies.Enemy">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQSBACCAAgBADAAQAAAEAACAAEAAAACCAAAgAAJYAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Enemies\Enemy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Assets.Scripts.Models.Enemies.Enemy_Obj.BeeHive.Bee" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAiAAAAAAAAAAAAEAAEAAAAAAAQAgAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Enemies\Enemy_Obj\BeeHive\Bee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Models.Enemies.Enemy_Obj.BeeHive.BeeHive" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEgAAiBgAQwAAAEAACAEIAAAEQAABCAgAAQAAIA=</HashCode>
+      <FileName>Assets\Scripts\Models\Enemies\Enemy_Obj\BeeHive\BeeHive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Models.Enemies.Enemy_Obj.Clown.Clown" Collapsed="true">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAGABiAAAKACAAAAAAMAAAAAAIAAAAAgAgAACAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Enemies\Enemy_Obj\Clown\Clown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Models.Enemies.Enemy_Obj.ClownBox.ClownBox" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAABiAAAAgAAAAAAAkAAAAAAAAAAAAgAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Enemies\Enemy_Obj\ClownBox\ClownBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Models.Enemies.Enemy_Obj.Spider.Spider" HideInheritanceLine="true">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAiAAAAgAAAAABAAgAACAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Enemies\Enemy_Obj\Spider\Spider.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_stateMachine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assets.Scripts.Models.Enemies.Enemy_Obj.Tank.Tank" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAQgCCAiBAAAgQAAAgIAEAAEAEAAACAAAgAAEACAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Enemies\Enemy_Obj\Tank\Tank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Models.Enemies.Enemy_Obj.Spider.SpiderStateMachine" HideInheritanceLine="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAASAAABAAAAQAAAAACAAAEAAAAACCAAgRAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Enemies\Enemy_Obj\Spider\SpiderStateMachine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Spider" />
+      <Field Name="SpiderIdleState" />
+      <Field Name="SpiderAttackState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UnityEngine.Behaviour">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Component">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.Object" FixedFromPoint="true">
+      <Path>
+        <Point X="12.75" Y="0.5" />
+        <Point X="12.25" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Object">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Assets.Scripts.Models.Enemies.IEnemy">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQBAACAAgBAAAAQAAAAAAAAAEAAAAACAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\Enemies\IEnemy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Scripts.Models.States.IEnemyState">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAAABAAAAQAAAAAAAAAEAAAAACAAAgBAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Models\States\IEnemyState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
